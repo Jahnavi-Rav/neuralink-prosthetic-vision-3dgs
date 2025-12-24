@@ -1,0 +1,43 @@
+# Core deep learning
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# 3D Gaussian Splatting (install manually later)
+# gsplat>=0.1.0
+# nerfstudio>=0.3.0
+
+# Computer vision
+opencv-python>=4.8.0
+pillow>=10.0.0
+scikit-image>=0.21.0
+
+# Semantic segmentation
+transformers>=4.35.0
+timm>=0.9.0
+
+# 3D processing
+open3d>=0.17.0
+trimesh>=3.23.0
+plyfile>=0.9.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optimization (macOS-compatible versions)
+onnx>=1.14.0
+# onnxruntime-gpu not available on macOS, use CPU version:
+onnxruntime>=1.15.0
+
+# Experiment tracking
+tensorboard>=2.14.0
+wandb>=0.15.0
+tqdm>=4.66.0
+
+# Utilities
+pyyaml>=6.0.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
