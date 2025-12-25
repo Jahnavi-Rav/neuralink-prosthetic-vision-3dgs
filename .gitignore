@@ -65,3 +65,18 @@ Thumbs.db
 .env
 secrets/
 *.key
+# Demo images (too large for git, regenerate with demo.py)
+demo/images/*.png
+demo/images/*.jpg
+
+# Model checkpoints (large binary files)
+models/checkpoints/*.pth
+
+# Data files
+data/replica/
+data/scannet/
+*.ply
+
+# Experiment logs
+experiments/tensorboard/
+experiments/logs/
